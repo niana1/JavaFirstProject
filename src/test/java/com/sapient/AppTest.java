@@ -35,4 +35,10 @@ public class AppTest
     {
         assertTrue( true );
     }
+    public void testCheckEven()
+    {
+    assertEquals(false,CheckEven.check(5));
+    assertEquals(false,CheckEven.check(6));
+    assertEquals(false,CheckEven.check(9));
+        
 }
