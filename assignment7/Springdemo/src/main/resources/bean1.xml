@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+     <bean id = "firstb" class = "p1.HelloWorld"></bean>
+   
+    <bean id = "h1" class = "p1.Holiday">
+		<property name="Hname" value = "Republic day"></property>
+		<property name="Hdate" value = "26/01"></property>
+	</bean>
+	<bean id = "emp0" class = "p1.Employee">
+	<property name="emp_id" value="0"></property>
+<property name="emp_name" value="such"></property>
+<property name="emp_city" value="hyd"></property>
+	</bean>
+	<bean id = "emp1" class = "p1.Employee">
+	<property name="emp_id" value="1"></property>
+<property name="emp_name" value="suchi"></property>
+<property name="emp_city" value="hyd1"></property>
+	</bean>
+	<bean id = "emp2" class = "p1.Employee">
+	<property name="emp_id" value="2"></property>
+<property name="emp_name" value="suchit"></property>
+<property name="emp_city" value="hyd2"></property>
+	</bean>
+    
+    
+    
+</beans>
